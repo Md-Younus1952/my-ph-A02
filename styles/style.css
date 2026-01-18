@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared style  */
+.inter-font-new {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header {
+    background-color: #1A0B2E;
+    background: url("../assets/hero-bg.png"), url("../assets/apple-podcast.png"), #1A0B2E;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+.container {
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .menu {
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+    align-items: center;
+}
+
+nav .menu a {
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background: linear-gradient(to right, #FFFFFF, #000000, #1A0B2E, #412567, #FFFFFF);
+    cursor: pointer;
+    border-radius: 8px;
+}
