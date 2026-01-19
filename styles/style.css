@@ -49,7 +49,7 @@ nav .menu a {
     padding: 10px 20px;
     border: none;
     color: white;
-    background: linear-gradient(to right, #FFFFFF, #000000, #1A0B2E, #412567, #FFFFFF);
+    background: linear-gradient(to right, #Fc72FF, #8F68FF, #487BFF, #8F68FF, #FC72FF);
     cursor: pointer;
     border-radius: 8px;
 }
