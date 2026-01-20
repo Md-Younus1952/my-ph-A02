@@ -14,10 +14,10 @@
 </head>
 
 <body class="inter-font-new">
-    <header>
-        <nav class="container">
-            <h1><Span>Tech</Span><span>Wave</span></h1>
-            <ul class="menu">
+    <header class="bg-light">
+        <nav class="navbar display-flex">
+            <h1><Span id="logo-text">Tech</Span><span class="text-light">Wave</span></h1>
+            <ul class="menu display-flex">
                 <li><a href="">About</a></li>
                 <li><a href="">Episode</a></li>
                 <li><a href="">Hosts</a></li>
@@ -26,27 +26,57 @@
                 <p>Subscribe</p>
             </button>
         </nav>
-        <div class="hero-section">
-            <div>
-                <img src="./assets/apple-podcast.png" alt="Podcast-image">
-            </div>
-            <div>
+        <section id="hero">
+            <img class="hero-microphone" src="./assets/microphone.png" alt="">
+            <div class="hero-content">
                 <h1>TechWave</h1>
                 <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
                 <div>
-                    <button>
+                    <button class=" btn primary">
+
                         <p>Listen on Spotify</p>
                     </button>
-                    <button>
+                    <button class="btn secondary">
+
                         <p>Subscribe</p>
                     </button>
                 </div>
             </div>
-        </div>
-    </header>
-    <main>
+        </section>
 
-    </main>
+    </header>
+
+    <section id="about">
+        <div class="about-content">
+            <div>
+                <h1>About the Podcast</h1>
+                <p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
+                    We break down complex topics into digestible insights, explore productivity strategies that actually
+                    work,
+                    and share stories of personal growth from industry leaders.
+                </p>
+                <br>
+                <br>
+                <p>Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+            </div>
+
+            <div class="stats">
+                <div>
+                    <h3>150K+</h3><span id="indicator">Monthly Listeners</span>
+                </div>
+                <div>
+                    <h3>200+</h3><span id="indicator">Episodes Published</span>
+                </div>
+                <div>
+                    <h3>4.9★</h3><span id="indicator">Average Rating</span>
+                </div>
+                <div>
+                    <h3>50+</h3><span id="indicator">Industry Experts</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
 
     </footer>
